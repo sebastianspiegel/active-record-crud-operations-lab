@@ -5,7 +5,7 @@ describe 'Movie' do
       director: "George Roy Hill",
       lead: "Paul Newman",
       in_theaters: false
-  }}
+  }} 
 
   it 'inherits from ActiveRecord::Base' do
     expect(Movie.superclass).to eq(ActiveRecord::Base)
